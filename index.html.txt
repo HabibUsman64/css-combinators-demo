@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Combinators Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>CSS Combinators Examples</h1>
+
+  <div class="parent">
+    <p>This is a paragraph inside a div. (Descendant Combinator)</p>
+    <span>This is a span inside a div.</span>
+  </div>
+
+  <div class="child-example">
+    <p>This is a direct child paragraph. (Child Combinator)</p>
+    <span>This is a direct child span.</span>
+  </div>
+
+  <div class="sibling-example"></div>
+  <p>Paragraph immediately after div. (Adjacent Sibling Combinator)</p>
+
+  <div class="general-sibling"></div>
+  <p>Paragraph next to div (not immediately). (General Sibling Combinator)</p>
+  <p>Another paragraph next to div.</p>
+
+</body>
+</html>

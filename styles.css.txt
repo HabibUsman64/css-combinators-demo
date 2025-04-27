@@ -1,0 +1,23 @@
+/* Descendant combinator (space) */
+div.parent p {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Child combinator (>) */
+div.child-example > p {
+  color: green;
+  background-color: #f0f0f0;
+}
+
+/* Adjacent sibling combinator (+) */
+div.sibling-example + p {
+  color: red;
+  font-style: italic;
+}
+
+/* General sibling combinator (~) */
+div.general-sibling ~ p {
+  color: purple;
+  text-decoration: underline;
+}
